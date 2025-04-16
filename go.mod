@@ -1,3 +1,3 @@
-module github.com/judahcaruso/sokol.go
+module github.com/judah-caruso/sokol.go
 
 go 1.24.2

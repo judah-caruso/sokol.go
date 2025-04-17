@@ -6,6 +6,7 @@ import (
 	"unsafe"
 )
 
+// @fix(judah): Use cgo.Handle or runtime.Pinner to avoid heap allocating every c-string
 type CString = *byte
 
 func ToGoString(str CString) string {
